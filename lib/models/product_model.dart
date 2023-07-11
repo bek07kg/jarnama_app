@@ -21,7 +21,7 @@ class Product {
   final String address;
   final String? prices;
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return <String, dynamic>{
       'images': images,
       'title': title,
